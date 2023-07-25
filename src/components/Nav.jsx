@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
-
-export default function Nav(props) {
+import { useParams } from "react-router-dom";
+export default function Nav() {
+    // const {userid} = useParams()
     return (
-        <div className="nav">
-            <Link to="/">
+        <div className="nav nav-tabs justify-content-center">
+            <Link className="nav-link" to="/">
                 <div>Home</div>
             </Link>
-            <Link to="/page1">
-                <div>Page1</div>
-            </Link>
-            <Link to="/page2">
-                <div>Page2</div>
+            <Link className="nav-link" to="/about">
+                <div>About</div>
             </Link>
         </div>
     )
