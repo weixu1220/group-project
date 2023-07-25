@@ -1,6 +1,7 @@
-import axios from 'axios'
+
 const getEvilInsult = async function()
 {
+    
     const BASE_URL = "https://evilinsult.com";
     const url2='https://pirate.monkeyness.com/api/insult'
     const requestURL = `${BASE_URL}/generate_insult.php?lang=en&type=json`

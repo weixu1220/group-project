@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { useEffect } from "react";
 
 
 const initialState = {
@@ -7,6 +8,27 @@ const initialState = {
     width: '',
     jokeList: []
 }
+// function storedData(){    
+//         let storedWidth = localStorage.getItem('width')
+//         let storedHeight = localStorage.getItem('height')
+//         let storedInsult = localStorage.getItem('insult')
+//         let storedInsultParsed = JSON.parse(storedInsult)       
+//         if(storedWidth.length === 0){
+
+//             return ({
+//                 userName: '',
+//                 height: '',
+//                 width: '',
+//                 jokeList: []
+//             })
+//         }
+//         else {return ({
+//             userName: '',
+//             height: storedHeight,
+//             width: storedWidth,
+//             jokeList: storedInsultParsed
+//         })}
+//     }
 
 const formSlice = createSlice({
     name: 'formSlice',

@@ -30,7 +30,7 @@ export default function Form() {
 
     //       // Implement logic to get a random bear picture here...
   };
-
+  
   return (
 
       <div className="d-flex flex-column">
