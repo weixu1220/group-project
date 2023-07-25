@@ -4,7 +4,7 @@ import getBearPicture from "../utility/PlaceBearAPI";
 import getEvilInsult from "../utility/EvilInsultAPI";
 
 
-const ApiTest = function()
+const ApiComponent = function()
 {
     const [imageURL, setImageURL] = useState("");
     const [insult, setInsult] = useState("");
@@ -38,4 +38,4 @@ const ApiTest = function()
 };
 
 
-export default ApiTest;
+export default ApiComponent;
