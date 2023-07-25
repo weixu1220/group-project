@@ -19,7 +19,6 @@ const getBearPicture = async function(width, height)
         console.log(`Returning: ${bearPicture}`)
         return bearPicture;
     }
-
 };
 
 
